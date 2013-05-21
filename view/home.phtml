@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+   <!-- Mobile viewport optimized: h5bp.com/viewport -->
+   <meta name="viewport" content="width=device-width">
+
+   <title>..::Home::..</title>
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+
+   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/bootstrap.css">
+   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/bootstrap-responsive.css">
+   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/bootmetro.css">
+   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/bootmetro-tiles.css">
+   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/bootmetro-charms.css">
+   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/metro-ui-light.css">
+   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/icomoon.css">
+   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/css/style.css">
+
+
+   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/demo.css">
+   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/scripts/google-code-prettify/prettify.css" >
+   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/css/slider.css" >
+
+
+   <link rel="shortcut icon" href="<?php echo Conection::route();?>public/content/ico/favicon.ico">
+
+
+</head>
+
+<body>
+
+
+     <!-- ****menu**** -->
+       <?php include("menu.phtml"); ?>
+     <!-- ****menu**** -->
+
+
+
+   <header id="hero">
+
+         <div class="jumbotron masthead">
+            <div class="container-fluid">
+               <div class="row-fluid">
+                  <div class="inner span5">
+                     <img src="<?php echo Conection::route();?>public/img/logo.png" alt="">
+
+                     <p>Bienvenidos a la Web oficial de la comunidad #vivaPHP, una comunidad creada para enseñar, aprender y compartir cada día cosas nuevas en el excelente mundo de la Web.</p>
+
+
+                  </div>
+
+                  <div class="span7">
+                     <!-- *************************************************** -->
+                      <div id="myCarousel" class="carousel slide" >
+                        <div class="carousel-inner" style="background:gray;height:430px">
+                           <div class="item">
+                              <img src="<?php echo Conection::route();?>public/img/1.jpg" alt="">
+                              <div class="carousel-caption">
+                                 <h4>Titulo 01</h4>
+                                 <p>Detalle 01</p>
+                              </div>
+                           </div>
+                           <div class="item">
+                              <img src="<?php echo Conection::route();?>public/img/2.jpg" alt="">
+                              <div class="carousel-caption">
+                                    <h4>Titulo 02</h4>
+                                 <p>Detalle 02</p>
+                              </div>
+                           </div>
+                           <div class="item active">
+                              <img src="<?php echo Conection::route();?>public/img/3.jpg" alt="">
+                              <div class="carousel-caption">
+                                 <h4>Titulo 03</h4>
+                                 <p>Detalle 03</p>
+                              </div>
+                           </div>
+                        </div>
+
+                     </div>
+                     <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                    <!-- ************************************************** -->
+                  </div>
+
+               </div>
+            </div>
+
+         </div>
+
+   </header>
+
+
+   <div id="home-tiles" class="container-fluid metro">
+      <h2>Síguenos</h2>
+      <div class="row-fluid">
+         <div class="span4">
+            <a class="tile wide imagetext bg-color-darken first" href="#">
+               <div class="image-wrapper">
+                  <span class="icon icon-github"/>
+               </div>
+               <div class="column-text">
+                  <div class="text-header3">Ver proyectos en GitHub</div>
+               </div>
+            </a>
+         </div>
+         <div class="span4">
+            <a class="tile wide imagetext bg-color-face middle" href="#">
+               <div class="image-wrapper">
+                  <!--<img src="content/img/metro-tiles.jpg" alt="demo"/>-->
+                  <span class="icon icon-facebook-2"/>
+               </div>
+               <div class="column-text">
+                  <div class="text-header3">Síguenos en Facebook</div>
+               </div>
+            </a>
+         </div>
+         <div class="span4">
+            <a class="tile wide imagetext bg-color-blue last" href="#">
+               <div class="image-wrapper">
+                  <span class="icon icon-twitter"/>
+               </div>
+               <div class="column-text">
+                  <div class="text-header3">Síguenos en Twitter</div>
+               </div>
+            </a>
+         </div>
+      </div>
+   </div>
+
+   <div class="marketing metro container-fluid">
+      <h1>Ultimas publicaciones</h1>
+        <hr>
+		    <div class="container">
+		      <div class="row-fluid">
+		        <div class="">
+		      	<?php for ($i=0; $i < 10; $i++) {
+
+		      	 ?>
+			         <div class="span4" style="padding:10px;margin:0;">
+			            <h2><a href="#">Titulo de la noticia</a></h2>
+			            <div class="tile wide image">
+			               <img src="<?php echo Conection::route();?>public/img/sublic.jpg" alt="hub" />
+			            </div>
+			            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore doloremque inventore provident itaque...</p>
+			         </div>
+
+			       <?php } ?>
+		         </div>
+		      </div>
+		     </div>
+		     <div id="push"></div>
+   </div>
+
+
+
+   <!-- **********footer********************** -->
+
+      <?php include("footer.phtml"); ?>
+
+    <!-- **********footer********************** -->
+
+
+      <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+      <script>window.jQuery || document.write("<script src='<?php echo Conection::route();?>public/scripts/jquery-1.8.2.min.js'>\x3C/script>")</script>
+
+
+
+      <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/google-code-prettify/prettify.js"></script>
+      <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/jquery.mousewheel.js"></script>
+      <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/jquery.scrollTo.js"></script>
+      <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/bootstrap.min.js"></script>
+      <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/bootmetro.js"></script>
+      <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/bootmetro-charms.js"></script>
+      <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/demo.js"></script>
+      <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/holder.js"></script>
+
+      <script type="text/javascript">
+         $(".metro").metro();
+      </script>
+   </body>
+</html>

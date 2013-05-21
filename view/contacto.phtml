@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+	   <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	   <!-- Mobile viewport optimized: h5bp.com/viewport -->
+	   <meta name="viewport" content="width=device-width">
+		<title>Contacto</title>
+
+		 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/bootstrap.css">
+	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/bootstrap-responsive.css">
+	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/bootmetro.css">
+	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/bootmetro-tiles.css">
+	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/bootmetro-charms.css">
+	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/metro-ui-light.css">
+	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/icomoon.css">
+	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/css/style.css">
+	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/demo.css">
+	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/scripts/google-code-prettify/prettify.css" >
+   	   <link rel="shortcut icon" href="<?php echo Conection::route();?>public/content/ico/favicon.ico">
+   	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/css/contacto.css">
+
+	</head>
+
+	<body>
+
+           <!-- ****menu**** -->
+            <?php include("menu.phtml"); ?>
+           <!-- ****menu**** -->
+
+       <div class="container-fluid">
+       	<div class="row-fluid">
+       		<div class="span12">
+       			<h2>Rellene el siguiente formulario con algo de información sobre su proyecto y nos pondremos en contacto con usted tan pronto nos sea posible.</h2>
+		        <div class="span6">
+	       			<form action="" name="formContact" id="formContact" method="post">
+	       			  <fieldset class="push-cont">
+	                    <legend><h2>CONTACTENOS</h2></legend>
+							  <label for="nombre">Nombre</label>
+							  <input type="text" name="nombre" id="nombre" class="input-xlarge">
+							  <span class="help-block">Campo necesario.</span>
+
+							  <label for="mail">E-mail</label>
+							  <input type="text" name="emial" id="email" class="input-xlarge">
+							  <span class="help-block">Campo necesario.</span>
+
+							  <label for="web">Web</label>
+							  <input type="text" name="web" id="web" class="input-xlarge">
+							  <apan class="help-block">Campo opcional.</apan>
+
+							  <label for="mensaje">Mensaje</label>
+							  <textarea name="mensaje" id="mensaje" rows="5"></textarea>
+
+							<label class="checkbox">
+							  <input type="checkbox"><span class="metro-checkbox">Darme copia</span>
+							</label>
+							<button type="submit" class="btn">Enviar mensaje</button>
+						</fieldset>
+	       		    </form>
+		       	</div>
+                <div id="home-tiles" class="container-fluid metro">
+		  	       	<div class="sidebar-nav push-red">
+			       		<div class="span12">
+			       		   <a class="tile wide imagetext bg-color-darken first" href="#">
+			       		      <div class="image-wrapper">
+			       		         <span class="icon icon-github"/>
+			       		      </div>
+			       		      <div class="column-text">
+			       		         <div class="text-header3">Ver proyectos en GitHub</div>
+			       		      </div>
+			       		   </a>
+				           <a class="tile wide imagetext bg-color-face middle" href="#">
+				              <div class="image-wrapper">
+				                 <span class="icon icon-facebook-2"/>
+				              </div>
+				              <div class="column-text">
+				                 <div class="text-header3">Síguenos en Facebook</div>
+				              </div>
+				           </a>
+				            <a class="tile wide imagetext bg-color-blue last" href="#">
+				               <div class="image-wrapper">
+				                  <span class="icon icon-twitter"/>
+				               </div>
+				               <div class="column-text">
+				                  <div class="text-header3">Síguenos en Twitter</div>
+				               </div>
+				            </a>
+				        </div>
+			     	</div>
+			    </div>
+
+
+       		</div>
+       	</div>
+       </div>
+
+      <div id="push"></div>
+	 <!-- **********footer********************** -->
+
+	   <?php include("footer.phtml"); ?>
+
+	  <!-- **********footer********************** -->
+
+
+	   <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+	   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	   <script>window.jQuery || document.write("<script src='<?php echo Conection::route();?>public/scripts/jquery-1.8.2.min.js'>\x3C/script>")</script>
+
+
+
+	   <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/google-code-prettify/prettify.js"></script>
+	   <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/jquery.mousewheel.js"></script>
+	   <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/jquery.scrollTo.js"></script>
+	   <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/bootstrap.min.js"></script>
+	   <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/bootmetro.js"></script>
+	   <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/bootmetro-charms.js"></script>
+	   <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/demo.js"></script>
+	   <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/holder.js"></script>
+
+	   <script type="text/javascript">
+	      $(".metro").metro();
+	   </script>
+	</body>
+</html>

@@ -1,0 +1,5 @@
+RewriteEngine On
+
+#solo controlador
+
+RewriteRule ^([a-zA-Z0-9_-]+)\/$ index.php?action=$1 [S]
