@@ -6,7 +6,7 @@
 	   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	   <!-- Mobile viewport optimized: h5bp.com/viewport -->
 	   <meta name="viewport" content="width=device-width">
-		<title>Contacto</title>
+		<title>Blog</title>
 
 		 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
 	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/bootstrap.css">
@@ -20,7 +20,7 @@
 	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/demo.css">
 	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/scripts/google-code-prettify/prettify.css" >
    	   <link rel="shortcut icon" href="<?php echo Conection::route();?>public/content/ico/favicon.ico">
-   	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/css/contacto.css">
+   	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/css/blog.css">
 
 	</head>
 
@@ -31,39 +31,48 @@
             <?php include("loginModal.phtml"); ?>
            <!-- ****menu**** -->
 
-       <div class="container-fluid">
+     <div class="container-fluid">
        	<div class="row-fluid">
        		<div class="span12">
 
-       			<div class="span8">
-       			<h2>Rellene el siguiente formulario con algo de información sobre su proyecto y nos pondremos en contacto con usted tan pronto nos sea posible.</h2>
-		        <div class="span6">
-	       			<form action="" name="formContact" id="formContact" method="post">
-	       			  <fieldset class="push-cont">
-	                    <legend><h2>CONTACTENOS</h2></legend>
-							  <label for="nombre">Nombre</label>
-							  <input type="text" name="nombre" id="nombre" class="input-xlarge">
-							  <span class="help-block">Campo necesario.</span>
+                <!-- *********content********* -->
+                <!-- <div class="row"> -->
+                <div class="span8">
+                <?php for ($i=0; $i <10 ; $i++) {
 
-							  <label for="mail">E-mail</label>
-							  <input type="text" name="emial" id="email" class="input-xlarge">
-							  <span class="help-block">Campo necesario.</span>
+                     ?>
+		               <div class="contetn">
+		                  <div class="images-content">
+		                  	<img src="<?php echo Conection::route();?>public/img/sublic.jpg" alt="">
+		                  </div>
 
-							  <label for="web">Web</label>
-							  <input type="text" name="web" id="web" class="input-xlarge">
-							  <apan class="help-block">Campo opcional.</apan>
+		                  <div class="title-content">
+		                  	<h1>
+		                  		<a href="#">Titulo de la noticia</a>
+		                  	</h1>
+		                  </div>
 
-							  <label for="mensaje">Mensaje</label>
-							  <textarea name="mensaje" id="mensaje" rows="5"></textarea>
+		                  <div class="det-content">
+		                  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, autem, eligendi quo provident quis nihil delectus earum quisquam incidunt maxime illo atque facilis vitae. Aut rem voluptatem eius ducimus voluptas.
+		                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, odit, enim esse reiciendis est assumenda optio ab dolorum praesentium ipsa perferendis eos consequuntur voluptatibus autem id dicta sequi delectus deserunt!</p>
 
-							<label class="checkbox">
-							  <input type="checkbox"><span class="metro-checkbox">Darme copia</span>
-							</label>
-							<button type="submit" class="btn">Enviar mensaje</button>
-						</fieldset>
-	       		    </form>
-		       	</div>
-		       </div><!-- end span8 -->
+		                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, autem, eligendi quo provident quis nihil delectus earum quisquam incidunt maxime illo atque facilis vitae. Aut rem voluptatem eius ducimus voluptas.
+		                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, odit, enim esse reiciendis est assumenda optio ab dolorum praesentium ipsa perferendis eos consequuntur voluptatibus autem id dicta sequi delectus deserunt!</p>
+		                  </div>
+
+		                  <div class="dat-auth">
+		                    <i class="icon-calendar icon-cont"></i><small>23 May 2013</small> <i class="icon-user icon-cont"></i><small>Oriol Rivera</small>
+		                  </div>
+
+		                  <div class="read">
+		                  	<a href="#" class="btn btn-primary">Leer Más <i class="icon-arrow-right-3"></i> </a>
+		                  </div>
+		              </div>
+
+               <?php } ?>
+                </div><!-- end span8 -->
+                <!-- </div> -->
+                <!-- *********content********* -->
 
                 <!-- **********sidebar************** -->
                 <div class="span4">
@@ -114,9 +123,26 @@
 
                 </div> <!-- end span4 -->
                 <!-- ***************sidebar************** -->
+
+
        		</div>
+       		<!-- ******paginacion*********** -->
+       		  <div class="pagination">
+				<ul>
+					<li><a href="#">Prev</a></li>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">Next</a></li>
+				</ul>
+			</div>
+
+       		<!-- ******paginacion*********** -->
        	</div>
        </div>
+
+
 
       <div id="push"></div>
 	 <!-- **********footer********************** -->

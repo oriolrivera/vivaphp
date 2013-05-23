@@ -168,7 +168,9 @@ body {
 }
 
 a {
-  color: #0088cc;
+  /**color: #0088cc;*/
+  color:#000;
+
   text-decoration: none;
 }
 
@@ -3823,6 +3825,7 @@ input[type="submit"].btn.btn-mini {
   padding: 3px 15px;
 }
 
+
 .nav-list > .active > a,
 .nav-list > .active > a:hover {
   color: #ffffff;
@@ -4618,7 +4621,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-inverse .nav > li > a:focus,
 .navbar-inverse .nav > li > a:hover {
   color:#fff;
-  background-color: #0072BC;
+  background-color: #0088CC;
 }
 
 .navbar-inverse .nav .active > a,

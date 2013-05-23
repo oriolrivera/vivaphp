@@ -1,0 +1,40 @@
+.contetn{
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: solid 1px #ccc;
+}
+
+.images-content img{
+	width: 100%;
+}
+
+.title-content{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.det-content{
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+.read{
+	margin-top: 10px;
+}
+
+
+
+.icon-cont{
+  padding-right:5px;
+  margin-left: 20px;
+}
+
+.nav-list > li > a:hover {
+ background-color: #0088CC;
+ color:#FFF;
+}
+
+.link-non a{
+	text-decoration: none;
+
+}

@@ -267,20 +267,20 @@ input[type=reset], input[type=file]::-ms-browse {
 }
 button[type=submit], input[type=submit]{
    background-clip: border-box;
-   background-color: rgb(70, 23, 180);
+   background-color: rgb(0, 136, 204);
    border-color: transparent;
    color: #FFF;
 }
 button:hover, input[type=button]:hover, input[type=reset]:hover,
 input[type=file]::-ms-browse:hover {
-   background-color: rgba(205, 205, 205, 0.82);
-   border-color: rgba(164, 164, 164, 0.45);
+   background-color: rgb(0, 136, 204);
+   border-color: rgb(0, 136, 204);
 }
 button[type=submit]:hover, input[type=submit]:hover {
    background-clip: border-box;
-   background-color: rgb(95, 55, 190);
+   background-color: rgb(0, 136, 204);
    border-color: transparent;
-   color: #FFF;
+   color: #ccc;
 }
 button:hover:active, button[type=submit]:hover:active,
 input[type=button]:hover:active, input[type=reset]:hover:active,
@@ -346,14 +346,12 @@ Link colors.
 .win-ui-dark a[disabled], .win-ui-dark a[disabled]:active { /* :disabled pseudo-class doesn't apply to a, even though disabled attribute stops navigation */
    color: rgba(255, 255, 255, 0.4);
 }
-a {
-   color: rgb(79, 26, 203);
-}
+
 a:hover:active {
    color: rgba(79, 26, 203, 0.6);
 }
 a:hover {
-   color: rgba(79, 26, 203, 0.8);
+   color: #0072C6;
 }
 a[disabled], a[disabled]:active { /* :disabled pseudo-class doesn't apply to a, even though disabled attribute stops navigation */
    color: rgba(0, 0, 0, 0.4);
@@ -414,7 +412,7 @@ ListView control colors.
    outline: #000 solid 2px;
 }
 .win-listview .win-container.win-selected:hover {
-   background-color: rgb(95, 55, 190);
+   background-color: red;
 }
 .win-listview .win-container.win-swipe:hover {
    background-color: transparent;
@@ -427,13 +425,13 @@ ListView control colors.
    border-color: rgb(70, 23, 180);
 }
 .win-container.win-selected:hover .win-selectionborder {
-   border-color: rgb(95, 55, 190);
+   border-color:red;
 }
 .win-selected .win-selectionbackground {
    background-color: rgb(70, 23, 180);
 }
 .win-selected:hover .win-selectionbackground {
-   background-color: rgb(95, 55, 190);
+   background-color: red;
 }
 .win-selectioncheckmark {
    color: #FFF;
@@ -1051,8 +1049,8 @@ input.btn, button.btn, a.btn {
 
 
 .btn-primary {
-   background-color: #59008C;
-   border-color: #59008C;
+   background-color: #0088CC;
+   border-color: #0088CC;
    color: #FFF;
    background-image: none;
    background-repeat: no-repeat;
@@ -1064,15 +1062,15 @@ input.btn, button.btn, a.btn {
 .btn-primary.active,
 .btn-primary.disabled,
 .btn-primary[disabled] {
-   background-color: #781096;
-   border-color: #781096;
+   background-color: #0088CC;
+   border-color: #0088CC;
    color: #CCC;
 }
 
 .btn-primary:active,
 .btn-primary.active {
-   background-color: #781096;
-   border-color: #781096;
+   background-color: #0088CC;
+   border-color: #0088CC;
 }
 
 

@@ -15,8 +15,8 @@
 			         		<ul class="nav">
 			         			<li><a href="<?php echo Conection::route();?>">Home</a></li>
 			         			<li><a href="">Quiénes Somos</a></li>
-			         			<li><a href="">Blog</a></li>
-			         			<li><a href="">Eventos</a></li>
+			         			<li><a href="<?php echo Conection::route();?>blog/">Blog</a></li>
+			         			<li><a href="<?php echo Conection::route();?>eventos/">Eventos</a></li>
 
 			         			<li class="dropdown">
 			         				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -37,17 +37,24 @@
                                 	<form action="" class="navbar-search pull-left">
 	                                	 <div class="input-prepend">
 											 <input type="text" placeholder="Digite su busqueda..." class="search-query span2">
-	                                         <button type="submit" class="btn btn-primary">Buscar</button>
+	                                         <button type="submit">Buscar</button>
 											</div>
 									</form>
 
-                                </li>
-
+                               </li>
 			         		</ul>
-		         	    </div>
-            	</div>
-        	</div>
 
+
+		         	    </div>
+		         	        <div class="pull-right login">
+			         			<i class="icon-user icon-white"></i>
+			         			<a href="#myModal2" role="button" data-toggle="modal">Login</a>
+			         		</div>
+
+
+			      <!-- ********************************** -->
+			         </div>
+        	</div>
      </div>
 
 

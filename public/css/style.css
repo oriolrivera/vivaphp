@@ -19,6 +19,15 @@ body{
 
 }
 
+.login{
+  margin-top:10px;
+}
+
+.login a{
+    color:#fff;
+    text-decoration: none;
+}
+
 .sidebar-nav{
   padding: 9px 0;
 

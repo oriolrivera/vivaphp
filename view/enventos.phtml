@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Eventos vivaPHP</title>
+
+		 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/bootstrap.css">
+	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/bootstrap-responsive.css">
+	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/bootmetro.css">
+	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/bootmetro-tiles.css">
+	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/bootmetro-charms.css">
+	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/metro-ui-light.css">
+	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/icomoon.css">
+	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/css/style.css">
+	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/content/css/demo.css">
+	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/scripts/google-code-prettify/prettify.css" >
+   	   <link rel="shortcut icon" href="<?php echo Conection::route();?>public/content/ico/favicon.ico">
+   	   <link rel="stylesheet" type="text/css" href="<?php echo Conection::route();?>public/css/blog.css">
+</head>
+	<body>
+
+
+              <a data-toggle="modal" href="#myModal2" class="btn btn-success btn-large">modal</a>
+
+               <!--modal -->
+<div id="myModal2" class="modal message hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                   <h3>Modal Heading</h3>
+                </div>
+                <div class="modal-body">
+                   <h4>Text in a modal</h4>
+                   <p>Do you want to turn on location services so Microsoft can use your location ?</p>
+                </div>
+                <div class="modal-footer">
+                   <button class="btn" data-dismiss="modal">Close</button>
+                   <button class="btn btn-primary">Save changes</button>
+                </div>
+             </div>
+             <div id="myModal3" class="modal warning bg-color-blu hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-body">
+                   <p>The new product cannot be saved due to an error. A log message has been emailed to you.</p>
+                </div>
+                <div class="modal-footer">
+                   <button class="btn btn-large" data-dismiss="modal">Close</button>
+                </div>
+             </div>
+
+							<!-- Modal -->
+
+
+          <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+	   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	   <script>window.jQuery || document.write("<script src='<?php echo Conection::route();?>public/scripts/jquery-1.8.2.min.js'>\x3C/script>")</script>
+
+	   <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/google-code-prettify/prettify.js"></script>
+	   <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/jquery.mousewheel.js"></script>
+	   <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/jquery.scrollTo.js"></script>
+	   <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/bootstrap.min.js"></script>
+	   <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/bootmetro.js"></script>
+	   <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/bootmetro-charms.js"></script>
+	   <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/demo.js"></script>
+	   <script type="text/javascript" src="<?php echo Conection::route();?>public/scripts/holder.js"></script>
+
+	   <script type="text/javascript">
+	      $(".metro").metro();
+	   </script>
+
+	</body>
+</html>

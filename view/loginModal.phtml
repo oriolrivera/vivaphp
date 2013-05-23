@@ -1,0 +1,62 @@
+<!--modal -->
+ <div id="myModal2" class="modal message hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ 	<center>
+        <div class="modal-header">
+           <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+           <h3>Aceder a tu cuenta</h3>
+        </div>
+        <div class="modal-body">
+
+	       <!-- <h4>Text in a modal</h4>
+	       <p>Do you want to turn on location services so Microsoft can use your location ?</p> -->
+
+	       <form action="">
+            <fieldset>
+			      <label for="loginUser">Login</label>
+				  <input type="text" name="loginUser" id="loginUser" class="input-xlarge">
+
+				  <label for="passUser">Password</label>
+				  <input type="password" name="passUser" id="passUser" class="input-xlarge">
+			</fieldset>
+	       </form>
+	       <a href="#"><small>Regístrate ahora</small></a><br>
+	       <a href="#myModal" role="button" data-toggle="modal" data-dismiss="modal"><small>¿No puedes acceder a tu cuenta?</small></a>
+
+        </div>
+        <div class="modal-footer">
+           <button class="btn" data-dismiss="modal">Salir</button>
+           <button class="btn btn-primary">Login</button>
+        </div>
+    </center>
+</div>
+
+<!-- olvide mi contraseña -->
+
+ <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+		<h3 id="myModalLabel">Restablecer la contraseña</h3>
+	</div>
+	<div class="modal-body">
+		<p>Para restablecer la contraseña, escribe tu cuenta de correo.</p>
+
+        <form action="">
+        	<input type="text" placeholder="Ejemplo: alguien@example.com" class="input-xlarge">
+        </form>
+
+	</div>
+	<div class="modal-footer">
+		<button class="btn" data-dismiss="modal" aria-hidden="true">Salir</button>
+		<button class="btn btn-primary">Enviar</button>
+	</div>
+</div>
+
+<!-- error si el user no existe -->
+<div id="myModal3" class="modal warning bg-color-blu hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-body">
+       <p>El usuario no existe en nustro registro.</p>
+    </div>
+    <div class="modal-footer">
+            <button class="btn btn-large" data-dismiss="modal">Cerrar</button>
+    </div>
+</div>
