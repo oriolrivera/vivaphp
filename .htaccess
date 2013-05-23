@@ -1,5 +1,10 @@
 RewriteEngine On
 
+#personalizar errores de navegador
+ErrorDocument 404 http://vidavirtual.miradiocr.us/vphp/error/
+ErrorDocument 403 http://vidavirtual.miradiocr.us/vphp/error/
+ErrorDocument 500 http://vidavirtual.miradiocr.us/vphp/error/
+
 #solo controlador
 
 RewriteRule ^([a-zA-Z0-9_-]+)\/$ index.php?action=$1 [S]
